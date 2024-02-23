@@ -1,4 +1,4 @@
-![Screenshot 2024-02-23 182412](https://github.com/joe-hadchity/LandingPagePositivius/assets/105626252/6ba22355-7708-414a-ab22-35558afc1b95)# React Landing Page
+# React Landing Page
 
 ## Overview
 
@@ -38,7 +38,7 @@ npm install npm@latest -g
 ## Installation
 Clone the repository:
 ```sh
-git clone https://github.com/yourusername/your-project-name.git
+git clone https://github.com/joe-hadchity/LandingPagePositivius.git
 Navigate to the project directory:
 cd your-project-name
 npm install
