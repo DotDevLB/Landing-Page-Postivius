@@ -38,7 +38,6 @@ Clone the repository:
 ```sh
 git clone https://github.com/joe-hadchity/LandingPagePositivius.git
 Navigate to the project directory:
-cd your-project-name
 npm install
 npm start
 ```
