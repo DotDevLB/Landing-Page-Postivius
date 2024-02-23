@@ -12,8 +12,6 @@ This project is a React-based landing page designed to showcase [Your Project/Pr
 
 Ensures a seamless viewing experience across all devices.
 
-![Screenshot 2024-02-23 182347](https://github.com/joe-hadchity/LandingPagePositivius/assets/105626252/92d675f8-6927-4584-8385-73cec74a9fbb)
-
 ### Interactive Elements
 
 Includes dynamic forms, animations, etc., to engage users.
