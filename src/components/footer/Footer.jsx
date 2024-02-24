@@ -10,22 +10,19 @@ const Footer = () => {
         <ul>
           <li>
             <a
-              href="https://www.linkedin.com/in/the-mustafa-khaled/"
-              target="_blank">
+              
               <i className="fa-brands fa-facebook"></i>
             </a>
           </li>
           <li>
             <a
-              href="https://www.linkedin.com/in/the-mustafa-khaled/"
-              target="_blank">
+             
               <i className="fa-brands fa-twitter"></i>
             </a>
           </li>
           <li>
             <a
-              href="https://www.linkedin.com/in/the-mustafa-khaled/"
-              target="_blank">
+             
               <i className="fa-brands fa-linkedin"></i>
             </a>
           </li>
@@ -48,11 +45,8 @@ const Footer = () => {
       <p className={styles.copyRight}>
         © 2023 Positivus. All Rights Reserved.
         <br />
-        <a
-          href="https://www.linkedin.com/in/the-mustafa-khaled/"
-          target="_blank">
-          Mustafa Khaled
-        </a>
+       
+       
       </p>
     </div>
   );
