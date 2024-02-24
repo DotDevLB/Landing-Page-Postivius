@@ -1,0 +1,115 @@
+body {
+  background: var(--color-bg);
+  font-family: "Rajdhani", sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main_heading {
+  background-color: var(--secondary-color);
+  font-size: 30px;
+  color: var(--text);
+  padding: 5px;
+  border-radius: var(--border-radius);
+  -webkit-border-radius: var(--border-radius);
+  -moz-border-radius: var(--border-radius);
+  -ms-border-radius: var(--border-radius);
+  -o-border-radius: var(--border-radius);
+  width: fit-content;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  line-height: var(--line-height);
+  color: var(--text);
+}
+
+.btn {
+  padding: 15px 20px;
+  background-color: var(--text);
+  color: var(--color-bg);
+  border: none;
+  border-radius: var(--border-radius);
+  -webkit-border-radius: var(--border-radius);
+  -moz-border-radius: var(--border-radius);
+  -ms-border-radius: var(--border-radius);
+  -o-border-radius: var(--border-radius);
+  border: 1px solid var(--text);
+  transition: var(--main-transition);
+  -webkit-transition: var(--main-transition);
+  -moz-transition: var(--main-transition);
+  -ms-transition: var(--main-transition);
+  -o-transition: var(--main-transition);
+}
+
+.btn:hover {
+  background-color: var(--color-bg);
+  color: var(--text);
+}
+
+i,
+button {
+  cursor: pointer;
+}
+
+.section_margin {
+  margin-top: 80px;
+}
+
+.fa-times {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transition-delay: 1s;
+  transition: var(--main-transition);
+  -webkit-transition: var(--main-transition);
+  -moz-transition: var(--main-transition);
+  -ms-transition: var(--main-transition);
+  -o-transition: var(--main-transition);
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.text h2 {
+  margin-right: 40px;
+}
+
+@media (max-width: 500px) {
+  .text {
+    flex-direction: column;
+    text-align: center;
+  }
+  .text h2 {
+    margin: 20px auto;
+  }
+}
+
+/* Swiper  */
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  color: var(--secondary-color) !important;
+  font-size: 25px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--secondary-color) !important;
+}
